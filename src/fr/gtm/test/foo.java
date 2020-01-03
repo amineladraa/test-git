@@ -1,6 +1,6 @@
 package fr.gtm.test;
 
-public class foo {
+public class Foo {
 
 	
 }
