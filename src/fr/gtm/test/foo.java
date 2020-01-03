@@ -1,7 +1,17 @@
 package fr.gtm.test;
 
-public class foo {
-private int i=0;
-supprimer t(i);
+import fr.gtm.monopoly.Pion;
 
+public class foo {
+	public Case(String nom) {
+		this.nom = nom;
+	}
+	
+	public void survoler(Pion p) {
+		System.out.println("SURVOL de "+nom+" par "+p.getNom());
+	}
+	
+	public void arreter(Pion p) {
+		System.out.println("ARRET sur "+nom+" par "+p.getNom());
+	}
 }
